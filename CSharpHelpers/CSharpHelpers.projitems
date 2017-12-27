@@ -9,5 +9,10 @@
     <Import_RootNamespace>CSharpHelpers</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Filters\CheckModelForNullAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Filters\ValidateModelAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\ResponseType\FileResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Attributes\Attributes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers.cs" />
   </ItemGroup>
 </Project>
