@@ -11,6 +11,10 @@ namespace CSharpHelpers.Attributes
             return p.GetCustomAttributes(typeof(DescriptionAttribute), true).Any();
         }
 
+
+
+
+
         public static string GetDescriptionAttribute(this PropertyInfo p)
         {
             var a = p.GetCustomAttributes(typeof(DescriptionAttribute), true);
