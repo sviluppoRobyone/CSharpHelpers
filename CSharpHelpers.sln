@@ -7,6 +7,11 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CSharpHelpers", "CSharpHelp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpHelpers.CL", "CSharpHelpers.CL\CSharpHelpers.CL.csproj", "{29374F06-C22A-40DB-B556-D7724376E6E6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E1F06FAC-014F-477C-BE47-82DEEAF1EA50}"
+	ProjectSection(SolutionItems) = preProject
+		package.json = package.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		CSharpHelpers\CSharpHelpers.projitems*{29374f06-c22a-40db-b556-d7724376e6e6}*SharedItemsImports = 4
