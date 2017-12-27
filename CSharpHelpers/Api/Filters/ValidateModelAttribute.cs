@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Net;
+using System.Net.Http;
+using System.Web.Http.Controllers;
 
 namespace CSharpHelpers.Api.Filters
 {

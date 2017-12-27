@@ -5,9 +5,22 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CSharpHelpers", "CSharpHelpers\CSharpHelpers.shproj", "{D837389C-2B90-40D4-A3FE-B0F0DF15924C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpHelpers.CL", "CSharpHelpers.CL\CSharpHelpers.CL.csproj", "{29374F06-C22A-40DB-B556-D7724376E6E6}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		CSharpHelpers\CSharpHelpers.projitems*{29374f06-c22a-40db-b556-d7724376e6e6}*SharedItemsImports = 4
 		CSharpHelpers\CSharpHelpers.projitems*{d837389c-2b90-40d4-a3fe-b0f0df15924c}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29374F06-C22A-40DB-B556-D7724376E6E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29374F06-C22A-40DB-B556-D7724376E6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29374F06-C22A-40DB-B556-D7724376E6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29374F06-C22A-40DB-B556-D7724376E6E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

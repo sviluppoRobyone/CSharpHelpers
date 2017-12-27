@@ -1,6 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.IO;
+using System.Net;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Web;
+using System.Web.Http;
 
 namespace CSharpHelpers.Api.ResponseType
 {
@@ -43,10 +49,7 @@ namespace CSharpHelpers.Api.ResponseType
         public string Filename = null;
         public FileResultFromByteArray(byte[] fileData, string contentType)
         {
-            if (fileData == null)
-                throw new ArgumentNullException(nameof(fileData));
-
-            _fileData = fileData;
+            _fileData = fileData ?? throw new ArgumentNullException(nameof(fileData));
             _contentType = contentType;
         }
 

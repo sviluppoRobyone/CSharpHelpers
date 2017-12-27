@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.ComponentModel;
+using System.Linq;
+using System.Reflection;
 
 namespace CSharpHelpers.Attributes
 {
@@ -10,10 +10,6 @@ namespace CSharpHelpers.Attributes
         {
             return p.GetCustomAttributes(typeof(DescriptionAttribute), true).Any();
         }
-
-
-
-
 
         public static string GetDescriptionAttribute(this PropertyInfo p)
         {
